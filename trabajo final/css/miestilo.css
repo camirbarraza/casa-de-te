@@ -1,0 +1,87 @@
+#mivideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+nav li{ 
+display: inline-block;
+margin-right: 20px;
+}
+nav a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: cursive;
+  }
+
+  #fsucu{ background-color: rgb(236, 184, 236);
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   padding: 50px;
+  }
+#letrageneral{
+    font-size: 20px;
+    font-family: cursive;
+    }
+    #quienes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 30px;
+        font-family: cursive;
+
+    }
+    #fquienes {
+    background-image: url(../recursos/te.jpg);  
+}
+#declaraciones {
+    background-color: white;
+    border-radius: 40px;
+    margin: 10px;
+    height: 60px;
+   position: relative;
+   width: 550px;
+}
+#declaraciones2 {
+    display: flex;
+    background-color: white;
+    border-radius:40px ;
+    justify-content: center;
+    margin: 10px;
+    height: 60px;
+    position: relative;
+    width: 550px;
+    margin-left: 500px;
+}
+.imagen1{
+margin: 10px;
+width: 400px;
+height: 400;
+}
+.icono {
+    font-size: 50px;
+    position: fixed;
+    bottom: 5px;
+    right: 20px;
+    background-color: rgba(0, 255, 85, 0.623);
+}
+.imagen2{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
